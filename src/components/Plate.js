@@ -1,3 +1,5 @@
+import "../styles/plate.css";
+
 const Plate = ({ weight, unit, color }) => {
   return (
     <div>
