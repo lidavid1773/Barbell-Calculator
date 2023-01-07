@@ -5,8 +5,10 @@ import "./styles/app.css";
 import Settings from "./components/Settings";
 
 function App() {
+  const [barbellWeight, setBarbellWeight] = useState(45);
+  const [weightUnits, setWeightUnits] = useState("pounds");
   const [platesOnBar, setPlatesOnBar] = useState([]);
-  const [totalWeight, setTotalWeight] = useState(45);
+  const [totalWeight, setTotalWeight] = useState(barbellWeight);
   const [displaySettings, setDisplaySettings] = useState(false);
 
   const addPlate = (plate) => {

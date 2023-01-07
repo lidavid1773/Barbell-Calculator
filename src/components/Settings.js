@@ -1,5 +1,6 @@
 import "../styles/settings.css";
 
+// Allow user to change weight on plates & bar along w/ units
 const Settings = ({ hideSettings }) => {
   return (
     <div>
